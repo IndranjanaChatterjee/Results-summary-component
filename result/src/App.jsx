@@ -9,8 +9,8 @@ function App() {
 
   return (
     <>
-      <section className='min-h-[100vh] flex flex-col justify-center items-center'>
-        <div className="main flex flex-row justify-center items-center">
+      <section className='min-h-[100vh] flex flex-col justify-center items-center '>
+        <div className="main flex flex-row justify-center items-center flex-wrap maindiv rounded-[1.5rem]">
           <Left/>
           <Right/>
         </div>

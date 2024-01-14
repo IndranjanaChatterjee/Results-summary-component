@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,6 +8,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Hanken Grotesk', sans-serif;
 }
 .attribution {
   font-size: 11px;
@@ -14,12 +17,23 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+.maindiv
+{
+  transform: translateZ(500px);
+  box-shadow: 1px 2px 20px 5px #e7edfb;
+}
 .leftdiv
 {
   background:linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+  font-family: 'Hanken Grotesk', sans-serif;
 }
 .circle
 {
   background:linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
-  color: hsl(0, 100%, 67%);
+  
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+.btn:hover
+{
+  background:linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
 }
