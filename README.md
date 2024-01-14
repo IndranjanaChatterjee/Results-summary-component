@@ -13,7 +13,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./faq/src/assets/images/screenshot.png)
+![](./result/src/assets/images/screenshot.png)
 
 
 
