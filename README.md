@@ -22,7 +22,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [solution URL](https://github.com/IndranjanaChatterjee/Results-summary-component)
-- Live Site URL: [live site URL](https://faq-accordion-drab.vercel.app/)
+- Live Site URL: [live site URL](https://results-summary-component-sigma-six.vercel.app/)
 
 
 ## My process
