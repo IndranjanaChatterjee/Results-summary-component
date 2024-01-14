@@ -1,4 +1,7 @@
 import { useState } from 'react'
+import Left from './Components/Left'
+import Right from './Components/Right'
+import Attribution from './Components/attribution'
 
 
 function App() {
@@ -6,9 +9,13 @@ function App() {
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+      <section className='min-h-[100vh] flex flex-col justify-center items-center'>
+        <div className="main flex flex-row justify-center items-center">
+          <Left/>
+          <Right/>
+        </div>
+        <Attribution/>
+      </section>
     </>
   )
 }
